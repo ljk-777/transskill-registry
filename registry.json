@@ -1,6 +1,20 @@
 {
-  "$schema": "v1",
-  "updated": "2026-05-24T16:00:00Z",
+  "$schema": "v2",
+  "updated": "2026-05-25T00:00:00Z",
+  "sources": [
+    {
+      "name": "awesome-agent-skills",
+      "type": "github-readme",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "description": "1000+ curated agent skills from official teams and community"
+    },
+    {
+      "name": "officialskills.sh",
+      "type": "website",
+      "url": "https://officialskills.sh/",
+      "description": "Browse agent skills published by official developer teams"
+    }
+  ],
   "skills": [
     {
       "name": "python-linter",
@@ -10,7 +24,75 @@
       "author": "transskill",
       "stars": 12,
       "auditScore": 100,
-      "created": "2026-05-24T00:00:00Z"
+      "created": "2026-05-24T00:00:00Z",
+      "sourceUrl": "https://github.com/ljk-777/transskill-registry",
+      "downloadUrl": "https://raw.githubusercontent.com/ljk-777/transskill-registry/main/skills/python-linter/SKILL.md",
+      "source": "manual"
+    },
+    {
+      "name": "docx",
+      "version": "1.0.0",
+      "description": "Create, edit, and analyze Word documents",
+      "tags": ["docx", "word", "microsoft", "document"],
+      "author": "anthropic",
+      "stars": 340,
+      "auditScore": 95,
+      "created": "2026-01-15T00:00:00Z",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
+      "source": "awesome-agent-skills"
+    },
+    {
+      "name": "skill-creator",
+      "version": "1.0.0",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance",
+      "tags": ["skill", "creator", "eval", "benchmark"],
+      "author": "anthropic",
+      "stars": 520,
+      "auditScore": 95,
+      "created": "2026-01-15T00:00:00Z",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+      "source": "awesome-agent-skills"
+    },
+    {
+      "name": "claude-api",
+      "version": "1.0.0",
+      "description": "Master the Claude API with best practices for prompting, streaming, and tool use",
+      "tags": ["claude", "api", "anthropic", "llm"],
+      "author": "anthropic",
+      "stars": 480,
+      "auditScore": 95,
+      "created": "2026-01-20T00:00:00Z",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md",
+      "source": "awesome-agent-skills"
+    },
+    {
+      "name": "mcp-builder",
+      "version": "1.0.0",
+      "description": "Build MCP servers that give Claude access to tools and data sources",
+      "tags": ["mcp", "server", "tool", "claude"],
+      "author": "anthropic",
+      "stars": 410,
+      "auditScore": 100,
+      "created": "2026-02-01T00:00:00Z",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mcp-builder/SKILL.md",
+      "source": "awesome-agent-skills"
+    },
+    {
+      "name": "canvas-design",
+      "version": "1.0.0",
+      "description": "Design and create visual content using HTML Canvas",
+      "tags": ["canvas", "design", "html", "visual"],
+      "author": "anthropic",
+      "stars": 290,
+      "auditScore": 95,
+      "created": " ",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/canvas-design/SKILL.md",
+      "source": "awesome-agent-skills"
     }
   ]
 }
